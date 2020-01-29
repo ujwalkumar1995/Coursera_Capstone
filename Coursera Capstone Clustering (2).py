@@ -74,9 +74,11 @@ for i in range(0, len(newList3)):
 # In[6]:
 
 
-df = pd.DataFrame(newList1, columns =['PostalCode'])
-df['Borough'] = newList2
-df['Neighborhood'] = newList3
+df1 = pd.DataFrame(newList1, columns =['PostalCode'])
+df1['Borough'] = newList2
+df1['Neighborhood'] = newList3
+df = df1.groupby(['PostalCode','Borough'],sort=False).agg(lambda x: ','.join(x)).reset_index()
+
 df.head()
 
 
