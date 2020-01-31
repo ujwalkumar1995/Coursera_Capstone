@@ -178,8 +178,8 @@ map_toronto
 # In[15]:
 
 
-CLIENT_ID = '0Y3REBSEKOWVIBXDQ3XYD05DYJFPEGQYDDVOLUPTN0EYMWZ5' # your Foursquare ID
-CLIENT_SECRET = 'T0TSRWZ3SP2ZAQVQI0GDJ52F51C3RLF1WELB1G0AOUCH0F3F' # your Foursquare Secret
+CLIENT_ID =  # your Foursquare ID
+CLIENT_SECRET =  # your Foursquare Secret
 VERSION = '20180605' # Foursquare API version
 
 
